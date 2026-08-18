@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hasil Deteksi</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
+        .container { max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ccc; }
+        .result { font-size: 20px; font-weight: bold; margin-bottom: 20px; }
+        a { text-decoration: none; color: #0056b3; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Laporan Analisis Trafik</h2>
+    
+    <p>Status Jaringan:</p>
+    <div class="result">
+        {{ prediction }}
+    </div>
+    
+    <p>Data Input yang Dianalisis:</p>
+    <p>{{ raw_data }}</p>
+    
+    <a href="/">Kembali ke Halaman Utama</a>
+</div>
+
+</body>
+</html>
