@@ -1,0 +1,10 @@
+### Tahap 1 — mean ± std (5 seed)
+
+| Model | n_seeds | Macro F1 (mean ± std) | WA precision (mean ± std) | WA recall (mean ± std) | WA F1 (mean ± std) |
+| --- | --- | --- | --- | --- | --- |
+| Targeted CTGAN, no class weights (v2, Tahap 1) | 5 | 0.8655 ± 0.0205 | 0.9164 ± 0.0795 | 0.7444 ± 0.2366 | 0.7970 ± 0.1153 |
+| Targeted CTGAN + class weights (Tabel 16, results/) | 5 | 0.8176 ± 0.0334 | 0.3973 ± 0.1900 | 1.0000 ± 0.0000 | 0.5465 ± 0.2050 |
+| SMOTE + class weights (results/) | 5 | 0.7921 ± 0.0082 | 0.2450 ± 0.0684 | 1.0000 ± 0.0000 | 0.3899 ± 0.0849 |
+| No augmentation, class weights only (results/) | 5 | 0.7288 ± 0.0476 | 0.1282 ± 0.2680 | 0.8944 ± 0.2360 | 0.1195 ± 0.2312 |
+| Undersample only (results/) | 5 | 0.7239 ± 0.0422 | 0.0886 ± 0.0971 | 0.8917 ± 0.2346 | 0.1429 ± 0.1527 |
+| Tanpa class weight, 1 seed (Tabel 15, results/) | 1 | 0.8829 | 0.8161 | 0.9861 | 0.8931 |

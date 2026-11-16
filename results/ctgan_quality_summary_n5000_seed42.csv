@@ -1,0 +1,2 @@
+tag,n_real,n_synth,corr_absdiff_mean,corr_absdiff_frobenius,ks_mean,ks_median,ks_max,ks_max_feature,discriminator_auc,discriminator_acc,note
+n5000_seed42,290,5000,0.27131870737445785,28.427542630619264,0.58881369168357,0.5625,0.916,flow duration,1.0,1.0,AUC diskriminator mendekati 0.5 berarti real/synth sulit dibedakan; mendekati 1 berarti mudah dibedakan (mutu rendah).

@@ -1,0 +1,7 @@
+,Benign,DoS attacks-Hulk,DoS attacks-SlowHTTPTest,FTP-BruteForce,SSH-Bruteforce,Web Attack
+Benign,430263,27,119,1,11,216
+DoS attacks-Hulk,0,92382,0,0,0,0
+DoS attacks-SlowHTTPTest,0,0,14856,13122,0,0
+FTP-BruteForce,0,0,7231,31440,0,0
+SSH-Bruteforce,0,2,1,6,37509,0
+Web Attack,0,0,0,0,0,72

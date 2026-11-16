@@ -1,0 +1,7 @@
+Label,count
+Benign,2153183
+DoS attacks-Hulk,461912
+DoS attacks-SlowHTTPTest,139890
+FTP-BruteForce,193354
+SSH-Bruteforce,187589
+Web Attack,362

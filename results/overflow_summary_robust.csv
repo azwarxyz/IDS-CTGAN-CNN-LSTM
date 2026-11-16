@@ -1,0 +1,2 @@
+scaler,n_values,n_values_lt0,n_values_gt1,n_values_outside_0_1,n_rows,n_rows_with_overflow,min,max
+robust,42653544,10621199,6817470,17438669,627258,627258,-959929230.803077,846458000000.0

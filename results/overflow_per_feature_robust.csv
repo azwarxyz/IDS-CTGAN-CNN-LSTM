@@ -1,0 +1,69 @@
+,n_overflow
+bwd pkts/s,471112
+fwd iat max,470847
+fwd iat mean,470099
+flow pkts/s,469798
+fwd pkts/s,469402
+fwd iat min,469251
+flow byts/s,468614
+pkt len var,468343
+flow iat min,467946
+fwd iat tot,467691
+flow iat mean,467274
+flow iat max,467231
+flow duration,464581
+subflow bwd byts,448315
+totlen bwd pkts,448315
+pkt len std,438385
+fwd seg size avg,434322
+fwd pkt len mean,434322
+bwd pkt len max,430323
+fwd pkt len max,421890
+init fwd win byts,418503
+init bwd win byts,418464
+bwd pkt len mean,405327
+bwd seg size avg,405327
+bwd header len,405235
+subflow fwd byts,393681
+totlen fwd pkts,393681
+pkt len max,390523
+fwd header len,368346
+dst port,357361
+pkt len mean,343964
+pkt size avg,340660
+subflow fwd pkts,293157
+tot fwd pkts,293157
+subflow bwd pkts,281139
+tot bwd pkts,281139
+fwd seg size min,175142
+fwd iat std,157078
+flow iat std,157036
+fwd pkt len std,156541
+bwd iat tot,156534
+bwd iat std,156523
+bwd iat max,156490
+bwd pkt len std,156461
+bwd iat mean,156333
+bwd iat min,156078
+fwd act data pkts,120656
+protocol,108309
+fwd pkt len min,103392
+pkt len min,102960
+bwd pkt len min,99499
+idle max,67873
+idle mean,67873
+idle min,67873
+active max,38043
+active mean,38043
+active min,38043
+idle std,32260
+active std,27727
+down/up ratio,4177
+fwd psh flags,0
+psh flag cnt,0
+urg flag cnt,0
+ack flag cnt,0
+syn flag cnt,0
+fin flag cnt,0
+rst flag cnt,0
+ece flag cnt,0

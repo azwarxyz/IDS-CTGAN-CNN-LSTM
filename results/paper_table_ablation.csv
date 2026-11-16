@@ -1,0 +1,9 @@
+Variant,run_name,Accuracy,Macro F-score,WA F-score,WA precision,WA recall
+Full model (CTGAN + CNN-LSTM + weights),main_ctgan_cnn_lstm_w1_n5000_seed42,0.9625,0.8406,0.7660,0.6207,1.0000
+Without CTGAN (undersample only),undersample_only_cnn_lstm_w1_n5000_seed42,0.9574,0.7237,0.1086,0.0575,0.9861
+CNN only (no LSTM),main_ctgan_cnn_w1_n5000_seed42_ablation,0.9618,0.7854,0.4431,0.2846,1.0000
+LSTM only (no CNN),main_ctgan_lstm_w1_n5000_seed42_ablation,0.9483,0.6943,0.0178,0.0090,0.4722
+Without class weights,main_ctgan_cnn_lstm_w0_n5000_seed42_noweight,0.9710,0.8829,0.8931,0.8161,0.9861
+Synthetic count N=1000,main_ctgan_cnn_lstm_w1_n1000_seed42_nablate,0.9679,0.7777,0.3372,0.2028,1.0000
+Synthetic count N=2500,main_ctgan_cnn_lstm_w1_n2500_seed42_nablate,0.9699,0.7976,0.3913,0.2432,1.0000
+Synthetic count N=10000,main_ctgan_cnn_lstm_w1_n10000_seed42_nablate,0.9695,0.8176,0.5353,0.3655,1.0000

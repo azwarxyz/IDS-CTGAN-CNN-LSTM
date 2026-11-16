@@ -1,0 +1,2 @@
+scaler,n_values,n_values_lt0,n_values_gt1,n_values_outside_0_1,n_rows,n_rows_with_overflow,min,max
+minmax,42653544,1,13,14,627258,6,-1.9663909328695777e-09,4.617667436489607

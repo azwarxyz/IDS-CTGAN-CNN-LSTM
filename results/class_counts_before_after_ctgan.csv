@@ -1,0 +1,7 @@
+Label,before_ctgan_train_split,after_ctgan_and_undersample
+Benign,1722546,791486
+DoS attacks-Hulk,369530,369530
+DoS attacks-SlowHTTPTest,111912,111912
+FTP-BruteForce,154683,154683
+SSH-Bruteforce,150071,150071
+Web Attack,290,5290

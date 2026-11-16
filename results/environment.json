@@ -1,0 +1,48 @@
+{
+  "timestamp_iso": "2026-11-14T10:15:29",
+  "python": "3.13.16",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "processor": "x86_64",
+  "cpu_count_logical": 12,
+  "numpy": "2.4.6",
+  "pandas": "2.2.3",
+  "sklearn": "1.6.1",
+  "matplotlib": "3.10.0",
+  "tensorflow": "2.21.0",
+  "torch": "2.14.1+cu130",
+  "ctgan_available": true,
+  "imblearn_available": true,
+  "lightgbm_available": true,
+  "run_mode": "full",
+  "drive_root": "/content/drive/MyDrive/Colab Notebooks/MECS_Revisi",
+  "data_dir": "/content/cic_data",
+  "results_dir": "/content/drive/MyDrive/Colab Notebooks/MECS_Revisi/results",
+  "in_colab": true,
+  "use_mixed_precision": false,
+  "dl_batch_size": 512,
+  "ram_total_gb": 83.47,
+  "ram_available_gb": 68.72,
+  "cpu_freq_mhz": 2200.1680000000006,
+  "cpu_model": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+  "ram_total_gb_proc": 83.47,
+  "nvidia_smi": "Sat Nov 14 10:15:29 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 580.82.07              Driver Version: 580.82.07      CUDA Version: 13.0     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA A100-SXM4-40GB          Off |   00000000:00:04.0 Off |                    0 |\n| N/A   31C    P0             42W /  400W |       6MiB /  40960MiB |      0%      Default |\n|                                         |                        |             Disabled |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|  No running processes found                                                             |\n+-----------------------------------------------------------------------------------------+\n",
+  "tf_gpus": [
+    "/physical_device:GPU:0"
+  ],
+  "tf_built_with_cuda": true,
+  "tf_gpu_details": [
+    {
+      "index": 0,
+      "compute_capability": "(8, 0)",
+      "device_name": "NVIDIA A100-SXM4-40GB"
+    }
+  ],
+  "torch_cuda": true,
+  "torch_gpu_name": "NVIDIA A100-SXM4-40GB",
+  "tf_gpu_configured": true,
+  "memory_growth": true,
+  "mixed_precision": false,
+  "physical_gpus": [
+    "/physical_device:GPU:0"
+  ]
+}

@@ -1,0 +1,4 @@
+Model,n_seeds,Macro F-score (mean ± std),WA F-score (mean ± std),seeds
+No augmentation (class weights only),5,0.7288 ± 0.0476,0.1195 ± 0.2312,"42,123,456,789,1024"
+Undersample only,5,0.7239 ± 0.0422,0.1429 ± 0.1527,"42,123,456,789,1024"
+SMOTE,5,0.7921 ± 0.0082,0.3899 ± 0.0849,"42,123,456,789,1024"
